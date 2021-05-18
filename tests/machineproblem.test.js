@@ -5,6 +5,8 @@ const { EmployeePageModel } = require('../pagemodel/employeepagemodel');
 const { Employee } = require("../datamodel/employee");
 const { del } = require('selenium-webdriver/http');
 
+/// Test Suite
+/// Contains all the test for this machine problem
 describe('Test suite', () => {
     
     beforeAll(async () => {

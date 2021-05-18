@@ -1,3 +1,4 @@
+/// Employee Data Model
 class Employee {
     constructor(firstname, lastname, address, state, city, department)
     {

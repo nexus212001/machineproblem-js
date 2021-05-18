@@ -2,6 +2,8 @@ const webdriver = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 const chromedriver = require('chromedriver');
 
+/// Contains the driver instantiation, configurable driver and baseUrl
+
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
 const driver = getWebDriver();

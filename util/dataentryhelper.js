@@ -1,5 +1,7 @@
 var faker  = require("faker");
 
+/// Data Entry Helper
+/// Generates random test data for entry
 class DataEntryHelper {
     generateFirstName = async() =>{
         return await faker.name.firstName();

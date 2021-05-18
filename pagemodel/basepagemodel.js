@@ -1,6 +1,8 @@
 const { until, By } = require('selenium-webdriver');
 const { timeout } = require("../tests/base-test");
 
+/// Base Page Model
+/// Contains all common methods across all page models
 class BasePageModel {
 
     constructor(driver)
